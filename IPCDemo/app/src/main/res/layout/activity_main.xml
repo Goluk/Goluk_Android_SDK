@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Goluk Demo"
+        android:background="#353535"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"></TextView>
+
+    <Button
+        android:id="@+id/btConnWifi"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textAllCaps="false"
+        android:text="connectWIFI"/>
+
+    <Button
+        android:id="@+id/btConnIPC"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Connect IPC"/>
+    <Button
+        android:id="@+id/btRealtimePlay"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Realtime Play"/>
+    <Button
+        android:id="@+id/btIPCConfig"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Dashcam Settings"/>
+    <Button
+        android:id="@+id/btIPCFileManage"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="IPCFileManage"/>
+
+
+</LinearLayout>
